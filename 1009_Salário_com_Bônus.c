@@ -1,14 +1,17 @@
 #include <stdio.h>
-
+ 
 int main() {
-
-    char vendedor;
-    double salario, total_vendas, comissao, total_salario;
+ 
+    char nome;
+    double fixo, total;
     
-    comissao = total_vendas * 0.15;
-    total_salario = comissao + salario;
-
-    printf("%f", total_salario);
+    scanf("%s", &nome);
+    scanf("%lf", &fixo);
+    scanf("%lf", &total);
+    
+    double salary = fixo + (total * 0.15);
+    
+    printf("TOTAL = R$ %.2lf\n", salary);
 
     return 0;
 }

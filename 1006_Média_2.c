@@ -1,13 +1,16 @@
 #include <stdio.h>
-
+ 
 int main() {
+ 
+    double a, b, c;
+    
+    scanf("%lf", &a);
+    scanf("%lf", &b);
+    scanf("%lf", &c);
 
-    // Notas do aluno
-    double a, b, c, media;
+    double media = ( (a * 2) + (b * 3) + (c * 5) ) / 10;
 
-    media = ((2 * a)(3 * b)(5 * c)/10)
-
-    prinf("media %f", media);
+    printf("MEDIA = %.1lf\n", media);
 
     return 0;
 }

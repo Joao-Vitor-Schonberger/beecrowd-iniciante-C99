@@ -1,14 +1,18 @@
 #include <stdio.h>
-
+ 
 int main() {
-
-    char funcionario;
-    int horas_trabalhadas;
-    double valor_hora, salario;
-
-    salario = horas_trabalhadas * valor_hora;
-
-    printf("%f", salario);
-
+ 
+    int func, horas;
+    double val;
+    
+    scanf("%d", &func);
+    scanf("%d", &horas);
+    scanf("%lf", &val);
+    
+    double salary = horas * val;
+    
+    printf("NUMBER = %d\n", func);
+    printf("SALARY = U$ %.2lf\n", salary);
+    
     return 0;
 }

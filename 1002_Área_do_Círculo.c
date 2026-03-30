@@ -1,14 +1,15 @@
 #include <stdio.h>
+ 
 int main() {
-    
-    // a=pi*(r**2)
-
-    double raio, area; 
+ 
+    double raio, area;
     double pi = 3.14159;
     
+    scanf("%lf", &raio);
+
     area = pi * (raio * raio);
     
-    prinf("A %d", area);   
+    printf("A=%.4lf\n", area);
 
     return 0;
 }

@@ -1,15 +1,15 @@
 #include <stdio.h>
-
+ 
 int main() {
-
-    int a, b, prod;
-
-    scanf("%d", a);
-    scanf("%d", b);
-
-    prod = a * b;
-
-    printf("PROD %d", prod);
+ 
+    int a, b, c;
     
+    scanf("%d\n", &a);
+    scanf("%d\n", &b);
+    
+    c = a * b;
+    
+    printf("PROD = %d\n", c);
+
     return 0;
 }
